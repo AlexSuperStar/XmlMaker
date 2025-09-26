@@ -1,0 +1,25 @@
+{
+  "name": "alexstar/xmlmaker",
+  "description": "A flexible PHP class for dynamic XML generation with support for attributes, repeating elements (@items), and pretty-printed output.",
+  "keywords": ["xml", "xml-generator", "xml-builder", "attributes", "php", "utf8"],
+  "homepage": "https://github.com/AlexSuperStar/XmlMaker",
+  "license": "MIT",
+  "version": "0.9.0",
+  "authors": [
+    {
+      "name": "Alexey Starikov",
+      "email": "alexsuperstar@mail.ru",
+      "homepage": "https://github.com/AlexSuperStar"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "alexstar\\": ""
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
